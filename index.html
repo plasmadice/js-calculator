@@ -1,0 +1,42 @@
+<html>
+    <head>
+            <title>Javascript Calculator</title>
+            <link href="styles/style.css" rel="stylesheet" type="text/css">
+        </head>
+        <body id='all'>
+                <div class='align'>
+                    <div id='calculator'>
+                    <div id='header'>JS Calculator</div>
+                    <input readonly id='result_field'></input>
+                <div>
+                    <button class='display'id='larger' onclick='erase()'>CLEAR</button>
+                </div>
+                <div>
+                    <button class='display'>7</button>
+                    <button class='display'>8</button>
+                    <button class='display'>9</button>
+                    <button class='display'id='operator'>/</button>
+                </div>
+                <div>
+                    <button class='display'>4</button>
+                    <button class='display'>5</button>
+                    <button class='display'>6</button>
+                    <button class='display' id='operator'>*</button>
+                </div>
+                <div>
+                    <button class='display'>1</button>
+                    <button class='display'>2</button>
+                    <button class='display'>3</button>
+                    <button class='display' id='operator'>-</button>
+                </div>
+                <div>
+                <button class='display' id='zero'>0</button>
+                    <button>.</button>
+                    <button id='operator' onclick='submit()'>=</button>
+                    <button class='display' id='operator'>+</button>
+                </div>
+                </div>
+                </div>
+        </body>
+</html>
+<script src="scripts/javascript.js"></script>
