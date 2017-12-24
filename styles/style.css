@@ -8,7 +8,7 @@
 #calculator {
     height: 30.5em;
     width: 20em;
-    background-color: #61c6f1;
+    background-color: #3a3a3a;
     text-align:center;
     border-radius: 1%;
     box-shadow:4px 5px 15px #000000;
@@ -19,7 +19,7 @@
     font-size: 250%;
     font-weight: bold;
     height: 1.5em;
-    background-color: #83d0f2;
+    background-color: #8599af;
     color: rgb(48, 48, 48);
     margin-bottom: .2em;
     padding-top: .25em;
@@ -46,19 +46,17 @@ button {
     width: 4em;
     margin-top: 1em;
     background-color: gray;
-    border: solid;
-    border-color: grey;
     border-radius: .5em;
     font-weight: bold;
-    color: white;
+    transition: background .25s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: silver;
 }
 
 #larger {
     width: 70%;
     height: 3em;
-    border-color: silver;
 } 
-
-#operator {
-  border-color: silver;
-}

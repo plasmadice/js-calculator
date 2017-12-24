@@ -9,3 +9,7 @@ Bugs:
 -Pressing enter without a complete problem will reset the calculator but not show this to the user
 
 Attempted to create a backspace button using string slice method to modify field.value. Did not work. May fix at a later date.
+
+changelog:
+12/23/17 - Initial commit
+12/24/17 - Fixed clear button, changed colors, added hover effect on buttons
